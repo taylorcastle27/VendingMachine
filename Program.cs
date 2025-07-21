@@ -25,14 +25,32 @@
     }
 }
 
-class Demo // Class containing the main method
+//class Demo // Class containing the main method
+//{
+//    public static void Main(string[] args)
+//    {
+//        var vendingMachine = new VendingMachine(); // Create an instance of the VendingMachine class
+//        // Calling the members of the VendingMachine class
+//        // Console.WriteLine("The capacity of the vending machine is: {0}", vendingMachine.Capacity);
+//        //vendingMachine.Display(); // Call the Display method\
+//        vendingMachine.Buy("Chocolate Bar"); // Call the Buy method with a product name
+//    }
+//}
+
+class CalculatorDemo
 {
     public static void Main(string[] args)
     {
-        var vendingMachine = new VendingMachine(); // Create an instance of the VendingMachine class
-        // Calling the members of the VendingMachine class
-        // Console.WriteLine("The capacity of the vending machine is: {0}", vendingMachine.Capacity);
-        //vendingMachine.Display(); // Call the Display method\
-        vendingMachine.Buy("Chocolate Bar"); // Call the Buy method with a product name
+        Calculator calculator = new Calculator();   // Create an instance of the Calculator class
+        double x = 10;
+        double y = 20;
+        double z = 5;
+
+        int a = 12;
+        int b = 4;
+
+        Console.WriteLine(calculator.Product(x, y)); // Calls the method with two doubles
+        Console.WriteLine(calculator.Product(x, y, z)); // Calls the method with three doubles
+        Console.WriteLine(calculator.Product(a, b)); // Calls the method with two integers
     }
 }
