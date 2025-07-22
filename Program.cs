@@ -1,4 +1,8 @@
-﻿class VendingMachine
+﻿// Remove or comment out one of the duplicate VendingMachine class definitions to resolve CS0101.
+// The following is the existing VendingMachine class. 
+// Ensure there is only one definition of VendingMachine in your project.
+
+class VendingMachine
 {
     // Class fields
     public int Count = 30;
