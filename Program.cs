@@ -62,3 +62,5 @@ namespace VendingMachine
         }
     }
 }
+
+// Compare this snippet from Calculator.cs:
